@@ -1,0 +1,162 @@
+Dir: ltr # Left to Right Direction
+
+BasicInfo:
+  FirstName: Черняев
+  LastName: Сергей
+  Photo: img/avatar.png 
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: devoops-shield@proton.me
+      Link: false
+    - Icon: fas fa-phone
+      Info: t.me/sergey_tech
+      Link: true
+        #- Icon: fas fa-map-marker-alt
+        #Info: Tehran, Iran
+        #Link: false 
+    - Icon: fab fa-linkedin-in
+      Info: linkedin.com/in/s-chernyaev
+      Link: true
+    - Icon: fab fa-github
+      Info: github.com/devoops-shield
+      Link: true
+    - Icon: fas fa-globe
+      Info: devoops-shield.ru
+      Link: true
+
+Experience:
+  - Employer: Devops Enginer
+    Place: Москва,Росссия
+    Positions:
+      - Title: Datana
+        Date: 2021 - 2023
+        Details:
+        - Проектирование и создание инфраструктуры в изолированном контуре (Proxmox, Teraform, gpu sharing,  Haproxy, K8s, Rancher, Kafka, Redis, KeyDB, Mongo, Postgres, Prometheus, Consul, VictoriaMetrics, Grafana, MinIO, Elk, Ansible, Nexus)
+        - Проектирование и создание HA vpn-bastion (ocserv)
+        - Настройка и поддержание сетевой инфраструктуры MikroTik.  
+        - Проектирование и создание собственной гибридной инфраструктуры на базе Proxmox, Vmware и облака  Lancloud на базе Hyper-V.
+        - Системы мониторинга Prometheus operator, Victoriametrics HA, Grafana, Karma.
+        - Системы логирования ELK, EFK, EVK.
+        - Конфигурирование хранилищ CEPH, MinIO, Glusterfs, OpenEBS и др.
+        - Системы резервного копирования VM (Veeam Backup and Recovery), k8s (Velero)
+        - Написание пайплайнов Gitlab cd /cd  Docker DND для языков Python, Node.js, Kotlin, Java.
+        - Управление конфигурациями (Ansible, Saltstack).
+        - Система управления доступами (AD, Ldap)
+        - Системы оркестрации Docker Swarm, Kubernetes(K3s, Rke, Rke2, Kubeadm).
+        - Проектировние кластера для IoT систем LXD(LXDMosaic), Резервное копирование (LXMIN), k8s(K3s). Система управления версиями ПО (Flux).
+        - Преобразования docker-compose в Helm и имеется опыт написания чартов.
+        Badges: ['Proxmox', 'Hyper-V', 'Vmware', 'Teraform', 'gpu sharing',  'Haproxy', 'K8s', 'Rancher', 'Kafka', 'Redis', 'KeyDB', 'Mongo', 'Prometheus', 'Postgres',  'Consul', 'VictoriaMetrics', 'Grafana', 'MinIO', 'Elk', 'Ansible', 'Nexus', 'Karma', 'MikroTik', 'Flux']     
+  - Employer: Devops
+    Place:  Москва,Росссия
+    Positions:
+      - Title: CREDITCALL COMMUNICATIONS LIMITED
+        Date: 2019 - по настоящие время
+        Details:
+        -  Написание разного рода интеграций по REST-API.(Python, Node.js, PHP)
+        -  Cборка и насройка продовых окружений.
+        -  Сборка кода и доставка на продовые площадки. (Gitlab ci/cd, Jenkins, Ansible)
+        -  Построение разного рода VPN туннелей.
+        -  Мониторинг с помощью Zabbix, Grafana, Victoriametrics.
+        -  Администрирование парка серверов на основе Linux, Windows.
+        -  Администрирование Voip, настройка очереди,групповые вызовы,follow me, ivr, cdr, мониторинг атс, создание отчетов.
+        -  Работа с базами данных Mysql, Postgresql, Mongo.
+        -  Cбор логов efk, graylog.
+        Badges: ['Node.js', 'PhP', 'Python', 'Windos Server', 'Linux', 'Libvirt', 'Proxmox','Saltstack', 'Swarm', 'Docker', 'Postgres', 'PowerBi', 'Asterisk', 'MySQL','MongoDB', 'Git', 'Zabbix', 'Kubernetes', 'Airflow'] 
+          
+  - Employer: Системный администратор
+    Place: Россия, Белгород
+    Positions:
+      - Title: Фабрика информационных технологий
+        Date: 2015 - 2018
+        Details:
+        - Администрирование парка компьютеров на основе linux, windows.
+        - Администрирование серверов на базе Linux (Centos, Debian,Proxmox,Gentoo) Windows 2012, подержка сетевого оборудования.
+        - Подержание высоко-нагруженных HighLoad++ площадок в рабочем состоянии 24/7 (2do2go.ru, all.culture.ru, culture.ru, cultreg.ru, vsopen.ru и др. )
+        - Администрирование Voip (Asterisk), настройка очередей,групповые вызовы,follow me, ivr, cdr, мониторинг атс, создание отчетов.
+        - Администрирование сайтов на разных движках (Modx, Wordpress, joomla, Yii, Java)
+        - Cборка docker-images, и доставка на продовые площадки (Gitlab ci/cd, Ansible)
+        - Управления контейнерными кластерами (Swarm, Kubernetes.)
+        - Создание инфомата на базе OpenSource решений.
+        - Работа с базами данных Mysql, Postgresql, Mongo.
+        - Работа с PHP, Node.js, Java, Python.
+        - Мониторинг с помощью Zabbix, Grafana.
+         - Cбор логов Efk, Graylog.
+        Badges: ['Linux', 'Windows Server', 'Asterisk', 'Node.js', 'PHP','Python','Ansible', 'Git', 'cd/cd','Jenkins','Modx','Joomla','Proxmox','ESXI','Kubernetes','MongoDB','Postgres','ELK']  
+    
+
+
+
+  - Employer: Инженер ИКТ
+    Place: Россия, Белгород
+    Positions:
+      - Title: МБОУ СОШ №40 
+        Date: 2014 - 2015
+        Details:
+        - Обслуживание парка компьютеров, сервера ОС (Windows,Linux)
+        - Администрирование серверов на базе Linux (Debian, Proxmox) Windows  подержка сетевого оборудования.
+        - Создание собственого IPTV, обслуживание.
+        - Ремонт и настройка компютеров переферии (проекторы, оргтехника и тд.)
+        - Ведение и продвижение официального сайта организации.Техническое обеспечение сайта
+        - Настройка электронных подписей на основе КриптоПро CSP.
+        - Обслуживание и модернизация ЛВС.
+        Badges: [ 'WIndows', 'Linux', 'Jomla', 'Git', 'CriptoPro CSP', 'Oracle', 'IPTV', 'LAN']  
+
+  - Employer: Cистемный администратор
+    Place: Россия, Белгород
+    Positions:
+      - Title: Энергомаш-строй
+        Date: 2011 - 2011
+        Details:
+        - Обслуживание парка компьютеров, сервера ОС (Windows, Linux)
+        - Администрирование серверов на базе  Windows,  подержка сетевого оборудования.
+        - Администрирование серверов, ip-телефонии, мини АТС.Работа с GSM и Voip модулями, Asterisk.
+        - Администрирование баз данных Oracle.
+        Badges: ['Windows', 'Linux', 'Oracle', 'LAN', 'Asterisk']
+
+  - Employer: Cистемный администратор
+    Place: Россия, Белгород
+    Positions:
+      - Title: Такси Позитив
+        Date: 2011 - 2011
+        Details:
+        - Обслуживание парка компьютеров, сервера ОС (Windows, Linux)
+        - Администрирование серверов на базе  Windows,  подержка сетевого оборудования.
+        - Администрирование серверов, ip-телефонии, мини АТС.Работа с GSM и Voip модулями, Asterisk.
+        - Администрирование баз данных Oracle.
+        Badges: ['Windows', 'Linux', 'Oracle', 'LAN', 'Asterisk']
+ 
+
+ 
+
+Education:
+  - Degree: Инженер
+    FieldOfStudy: Сети связи и системы комутации
+    NameofSchool: НИУ БелГу
+    Location: Россия, Белгород
+    Date: Sep 2006 - Sep 2011
+    RelevantCourses:
+      - Русский
+      - Английский
+      #- Database Management Systems
+      #- Computer Vision
+      #- Software Design Methodology
+
+Profile: Я Devops инженер с опытом работы более 5 лет. Мной созданы проекты архитектуры для Магнитогорского НМЛК и Краснодарского НМЛК на базе Kubernetes, а также Proxmox и Vmware. Мои любимымые инструменты Teraform, Packer, Ansible, Salstack, Docker, Podman, Helm, Helmfly и другие.
+    
+#Personal:
+    #Gender: Male
+  #  BirthDate: 1990-10-05
+  #  Status: Free to Work
+  #  MaritalStatus: Single
+
+
+Skills:
+ - Certified Calico Operator Level 1
+ - Kubernetes Fundamentals
+ - Cybersecurity Essentials
+ - Introduction to GitOps
+ - Fundamentals for Kyverno
+ - Cilium LoadBalancer IPAM and BGP Service Advertisement
+ - Network Foundations
+ - Cilium Cluster Mesh
+ - Cilium Flow Encryption

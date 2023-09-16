@@ -1,0 +1,27 @@
+name = "Simple CV"
+
+license = "MIT"
+licenselink = "https://github.com/hootan09/simple-cv/master/LICENSE"
+description = "Theme to build a customizeable printable CV with minor web responsiveness."
+
+homepage = "https://github.com/hootan09/simple-cv"
+
+# If you have a running demo of the theme.
+# demosite = "https://gohugo.io"
+
+tags = ["cv", "resumes", "minimal", "simple"]
+features = ["simple", "cv", "printable"]
+min_version = "0.41.0"
+
+# If the theme has multiple authors
+authors = [
+  {name = "Inês Almeida", homepage = "ines-almeida.com"},
+  {name = "Mam Niki", homepage = "https://nikitv.ir"}
+]
+
+# If porting an existing theme
+[original]
+    author = " Inês Almeida "
+    homepage = "ines-almeida.com"
+    repo = "https://github.com/ineesalmeida/almeida-cv"
+

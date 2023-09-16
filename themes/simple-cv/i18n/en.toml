@@ -1,0 +1,32 @@
+[profile]
+other = "О себе"
+
+[experience]
+other = "Опыт Работы"
+
+[education]
+other = "Образование"
+
+[skills]
+other = "Сертификаты"
+
+[projects]
+other = "Проекты"
+
+[relevantCourses]
+other = "Языки"
+
+[personal]
+other= "P"
+
+[gender]
+other = "Gender"
+
+[birthDate]
+other = "Birth Date"
+
+[status]
+other = "Status"
+
+[maritalStatus]
+other = "Marital Status"
